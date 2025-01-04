@@ -1,10 +1,10 @@
 public abstract class BaseState
 {
-    public abstract void OnStageEnter(BaseStateManager stateManager);
+    public abstract void OnStageEnter();
 
-    public abstract void OnStageUpdate(BaseStateManager stateManager);
+    public abstract void OnStageUpdate();
 
-    public abstract void OnStageFixedUpdate(BaseStateManager stateManager);
+    public abstract void OnStageFixedUpdate();
 
-    public abstract void OnStageExit(BaseStateManager stateManager);
+    public abstract void OnStageExit();
 }
